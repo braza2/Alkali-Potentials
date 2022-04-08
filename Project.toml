@@ -1,7 +1,16 @@
 name = "Alkali Potentials"
 authors = ["Raza"]
-[compat]
-julia = "1.6.3"
-DrWatson = "2.9.1"
+
 [deps]
+AutoGrad = "6710c13c-97f1-543f-91c5-74e8f7d95b35"
+Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
 DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+[compat]
+DrWatson = "2.9.1"
+julia = "1.6.3"
